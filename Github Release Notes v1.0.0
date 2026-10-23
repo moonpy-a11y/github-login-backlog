@@ -1,0 +1,37 @@
+Here’s a polished GitHub release notes draft for an initial stable release, using semantic version v1.0.0:
+
+## IDE LogButton v1.0.0
+
+This release introduces the initial public version of IDE LogButton, a VS Code extension that brings GitHub sign-in directly into the editor through VS Code’s built-in authentication flow.
+
+### Highlights
+- Added a VS Code extension for GitHub sign-in
+- Provides a status bar entry for signing in, switching accounts, and signing out
+- Uses VS Code’s native authentication provider instead of custom token handling
+- Keeps the extension lightweight and privacy-conscious
+- Includes documentation for setup, development, and testing
+
+### What’s Included
+- GitHub sign-in support through VS Code’s built-in account system
+- Account switching from the status bar
+- Sign-out flow via the VS Code Accounts experience
+- No additional OAuth scopes requested by the extension
+- No token storage or custom auth logic in the extension code
+
+### Developer Experience
+- Added project documentation and setup guidance
+- Included development instructions for running and testing the extension locally
+- Added visibility for the F5 extension development workflow via README documentation
+
+### Licensing
+- Added Apache 2.0 and MIT licensing metadata and badges to the project
+
+### Notes
+This is the first release of IDE LogButton and establishes the foundation for a simple, editor-native GitHub login experience.
+
+---
+
+If you want, I can also produce:
+- a more “marketing” style release notes version
+- a shorter changelog-style version
+- or a release note tailored specifically for GitHub Releases rich text formatting with sections like “Added / Changed / Fixed / Security”
